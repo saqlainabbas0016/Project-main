@@ -311,6 +311,58 @@ body{
     background-color:  #1587ED08;
 }
 .sec4-inner{
-    
+    max-width: 1440px;
+    margin: 0 auto;
+    padding:  110px 20px;
 
+}
+.section4-headding{
+    font-weight: 700px;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 44px;
+}
+.section4-para{
+    color: #00000099;
+font-family : Urbanist;
+font-size : 20px;
+font-weight : 400;
+line-height : 30px;
+text-align : center;
+margin-bottom: 44px;
+
+
+}
+.sec4-card1{
+    width: 320px;
+    height: 277px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 95px 0px #C9CBCC4D;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+.sec4-readmore{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+  
+    colour: #00000080;
+    font-size: 16px;
+    font-weight: 600px;
+
+}
+.section4-cards{
+    display: flex;
+/* justify-content: center; */
+justify-content: space-between;
+}
+.sec4-inner{
+    max-width: 1140px;
+    margin: 0 auto;
 }
