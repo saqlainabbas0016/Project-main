@@ -366,3 +366,120 @@ justify-content: space-between;
     max-width: 1140px;
     margin: 0 auto;
 }
+.footer{
+    background: #1587ED;
+}
+
+.footer-inner{
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 50px 20px 70px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* .footer-left{
+
+} */
+
+.footer-logo{
+    margin-bottom: 34px;
+}
+
+.footer-left-para{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 470px;
+    margin-bottom: 41px;
+}
+
+.footer-left-contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.icon-details{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.title-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.title-contact span.title{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.title-contact span.contact{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footer-about{
+    position: relative;
+}
+
+.links-head{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-links li a{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.social-links{
+    position: absolute;
+    bottom: 0;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0px;
+    left: -120px;
+    width: 275px;
+    /* border: 1px solid red; */
+}
+
+.chat{
+    position: absolute;
+    right: -90px;
+    bottom: 80px;
+}
